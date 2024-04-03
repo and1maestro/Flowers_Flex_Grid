@@ -542,7 +542,9 @@ footer button:hover{
     white-space: nowrap;
 }
 
-@media all and (min-width: 900px)
+@media (max-width: 768px)
 {
-    
+    body{
+        zoom: 57.4%;
+    }
 }
